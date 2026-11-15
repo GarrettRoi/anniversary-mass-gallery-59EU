@@ -1,0 +1,39 @@
+{
+  "projectId": "59EU-anniversary-mass-2026",
+  "projectName": "Archdiocese of Oklahoma City - Anniversary Mass photo booth remediation",
+  "clientId": "Archdiocese of Oklahoma City (contact: Carrie Harkey)",
+  "businessLine": "Vows & Vinyl DJ Co. photo booth (Fiesta/boothpics platform)",
+  "eventDate": "2026-11-08",
+  "eventCode": "59EU",
+  "sourceGalleryUrl": "https://boothpics.com/59EU",
+  "publicGalleryUrl": "https://garrettroi.github.io/anniversary-mass-gallery-59EU/",
+  "githubRepo": "GarrettRoi/anniversary-mass-gallery-59EU",
+  "relatedDJAppRecords": {
+    "note": "Photo booth event - not a DJ booking; see watchdog references to ev#91 Archdiocese Family Day for related billing",
+    "invoiceNote": "invoice 2026-036 (photo booth) existed as DRAFT per Oct 27 watchdog"
+  },
+  "status": "gallery live; pending Garrett go on client-facing email to Carrie Harkey",
+  "workDone": [
+    "2026-11-14: downloaded 92 gallery photos (88 banner 3:2 + 4 raw 4:3, 1 junk)",
+    "2026-11-14: AI banner removal via fal-ai/nano-banana/edit (waist-up reconstruction), 88/88",
+    "2026-11-14: QA sweep found 13 defective; fix passes 1+2 remediated all 13",
+    "2026-11-14: enhanced, renamed, republished gallery (91 photos)"
+  ],
+  "folderMap": {
+    "01_originals_with_banner_1080x720/": "raw downloads from boothpics gallery (banner baked in)",
+    "02_ai_reconstructed_1248x832/": "raw nano-banana outputs (pre-enhancement)",
+    "03_final_gallery/": "final enhanced + renamed album files (also live on GitHub Pages)",
+    "_archive/": "rejected attempts (crops-only, FLUX inpaint, fix pass intermediates, QA sheets)",
+    "05_gold_background_samples_rejected/": "gold background samples Garrett declined",
+    "photo_index.json": "mediaId <-> gallery position <-> repo filename mapping"
+  },
+  "constraints": [
+    "No unbranded originals exist anywhere; boothpics gallery only exposes overlay-baked files",
+    "Garrett approved AI reconstruction on voice Nov 2026; waist-up framing per his instruction",
+    "Repo filenames (e.g. mzrkjf_clean.jpeg) are LIVE URLS - never rename in the repo; local names carry 59EU project prefix"
+  ],
+  "ownerApprovals": {
+    "falGrant": "granted via voice approval Nov 2026 (flip it yourself)",
+    "sendGate": "email to Carrie Harkey NOT sent - draft staged, awaiting go"
+  }
+}
